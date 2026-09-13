@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Agents & Prompt Cache
+agents/
+.agents/
+.codex/
+*.agent
+
+# Competition Data (never commit raw datasets)
+data/
+*.csv
+*.parquet
+*.feather
+*.zip
+*.tar.gz
+
+# Submissions & Output Artefacts
+submissions/
+outputs/
+*.sub
+
+# Serialized Models & Checkpoints
+models/
+checkpoints/
+*.joblib
+*.pkl
+*.bin
+*.model
+*.cbm
+
+# Jupyter & Jupytext Artifacts
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE & OS Specific
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
